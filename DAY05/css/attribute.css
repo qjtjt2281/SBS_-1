@@ -15,3 +15,32 @@ section {
 */
 
 /* TODO: 여기에 작성해보세요 */
+/* section 태그, 속성명 id,속성값 '2' 끝나는 경우*/
+section[id$='2'] {
+    background-color: yellow;
+    padding: 10px;
+}
+
+div[class] {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+div[class^='l'] {
+    background-color: skyblue;
+}
+
+div[class*=i] {
+    background-color: pink;
+}
+
+div[class$='4'] {
+    background-color: black;
+    color: white;
+}
+
+div[class*='e'][class$='2'] {
+    background-color: blue;
+    color: white;
+}
