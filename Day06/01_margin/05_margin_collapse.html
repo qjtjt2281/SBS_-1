@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin_collapse 현상</title>
+    <link rel="stylesheet" href="css/05_margin_collapse.css">
+</head>
+<body>
+    <h1>margin collapse</h1>
+    <div class="container">
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </div>
+    <hr>
+    
+    <h1>margin collapse 해결1</h1>
+    <div class="container">
+        <section class="solve-1"></section>
+        <section class="solve-1"></section>
+        <section class="solve-1"></section>
+       
+    </div>
+    <hr>
+
+    <h1>margin collapse 해결2 - border</h1>
+    <div class="container">
+       <div class="solve-2"><section></section></div> 
+       <div class="solve-2"><section></section></div> 
+       <div class="solve-2"><section></section></div> 
+    </div>
+    <hr>
+
+    <h1>margin collapse 해결3 - 마진 한쪽 반향만</h1>
+    <div class="container">
+       <section class="solve-3"></section> 
+       <section class="solve-3"></section> 
+       <section class="solve-3"></section> 
+</body>
+</html>
